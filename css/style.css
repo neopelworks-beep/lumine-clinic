@@ -202,8 +202,10 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
   .footer__links{justify-content:flex-start}
 }
 @media(max-width:768px){
-  .nav__links{position:fixed;top:68px;left:0;right:0;bottom:0;background:var(--white);flex-direction:column;align-items:center;justify-content:center;gap:24px;transform:translateX(100%);transition:transform var(--tr);z-index:99}
+  .nav__links{position:fixed;top:68px;left:0;right:0;height:calc(100vh - 68px);height:calc(100dvh - 68px);background:var(--white);flex-direction:column;align-items:center;justify-content:center;gap:32px;transform:translateX(100%);transition:transform var(--tr);z-index:99}
   .nav__links.open{transform:translateX(0)}
+  .nav__links .nav__link{font-size:1.1rem !important;color:var(--navy) !important;font-weight:600 !important;letter-spacing:.06em}
+  .nav__links .nav__link--cta{color:var(--white) !important;font-size:1rem !important;padding:14px 32px}
   .nav__hamburger{display:flex}
   .sp-only{display:inline}
 
