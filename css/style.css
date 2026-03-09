@@ -159,9 +159,9 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
 .price__category{margin-bottom:32px}
 .price__category:last-child{margin-bottom:0}
 .price__category-title{font-family:var(--font-display);font-size:1.05rem;font-weight:600;letter-spacing:.06em;color:var(--text);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--gold)}
-.price__row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--border);font-size:.85rem}
-.price__row span:first-child{color:var(--text-2);font-weight:300}
-.price__row span:last-child{font-weight:600;color:var(--text);letter-spacing:.02em}
+.price__row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);font-size:.85rem}
+.price__row span:first-child{color:var(--text-2);font-weight:300;flex:1;min-width:0}
+.price__row span:last-child{font-weight:600;color:var(--text);letter-spacing:.02em;white-space:nowrap}
 .price__note{text-align:center;font-size:.75rem;color:var(--text-2);margin-top:32px;font-weight:300;letter-spacing:.02em}
 
 /* ═══ ACCESS ═══ */
@@ -189,6 +189,7 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
 .footer{padding:48px 0 0;background:var(--navy);color:var(--gray-400)}
 .footer__inner{display:grid;grid-template-columns:1fr 2fr;gap:40px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.08)}
 .footer .nav__logo-mark{background:var(--gold-light)}
+.footer .nav__logo-img{border:2px solid rgba(201,168,76,.4)}
 .footer .nav__logo-text{color:var(--white)}
 .footer .nav__logo-sub{color:var(--gray-400)}
 .footer__desc{font-size:.8rem;margin-top:12px;color:var(--gray-500);font-weight:300;letter-spacing:.04em}
@@ -203,8 +204,6 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
   .doctor__inner{grid-template-columns:1fr}
   .doctor__img{max-width:400px;margin:0 auto}
   .access__inner{grid-template-columns:1fr}
-  .gallery__grid{grid-template-columns:1fr 1fr}
-  .gallery__item--wide{grid-column:span 2}
   .footer__inner{grid-template-columns:1fr}
   .footer__links{justify-content:flex-start}
 }
