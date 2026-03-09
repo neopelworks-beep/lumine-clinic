@@ -48,7 +48,7 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
 .nav__inner{display:flex;align-items:center;justify-content:space-between;max-width:var(--container);margin:0 auto;padding:0 var(--gap);height:68px}
 .nav__logo{display:flex;align-items:center;gap:12px}
 .nav__logo-mark{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--gold);color:var(--white);font-family:var(--font-display);font-size:1.2rem;font-weight:600;letter-spacing:0}
-.nav__logo-img{width:36px;height:36px;object-fit:contain}
+.nav__logo-img{width:36px;height:36px;object-fit:cover;border-radius:50%}
 .nav__logo-text{font-family:var(--font-display);font-size:1rem;font-weight:600;letter-spacing:.12em;color:var(--text)}
 .nav__logo-sub{display:block;font-size:.55rem;font-weight:400;letter-spacing:.2em;color:var(--text-2);margin-top:-2px}
 .nav__links{display:flex;align-items:center;gap:24px}
