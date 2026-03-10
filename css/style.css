@@ -225,7 +225,7 @@ button{border:none;background:none;cursor:pointer;font:inherit;color:inherit}
   .sp-only{display:inline}
 
   .hero{min-height:100vh;min-height:100dvh;display:flex;align-items:center}
-  .hero__bg{background-position:70% center;animation:none !important;inset:0;transform:none !important}
+  .hero__bg{background-position:center center;animation:none !important;inset:0;transform:none !important}
   .hero__overlay{background:linear-gradient(to right,rgba(15,26,46,.7) 0%,rgba(15,26,46,.35) 60%,rgba(15,26,46,.1) 100%)}
   .hero__inner{padding:120px var(--gap) 80px}
   .hero__content{max-width:100%}
