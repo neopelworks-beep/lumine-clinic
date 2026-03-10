@@ -45,6 +45,16 @@
     });
   });
 
+  /* SP: hero bg animation kill */
+  if (window.innerWidth < 768) {
+    var heroBg = document.querySelector('.hero__bg');
+    if (heroBg) {
+      heroBg.style.animation = 'none';
+      heroBg.style.inset = '0';
+      heroBg.style.transform = 'none';
+    }
+  }
+
   /* Nav shadow on scroll */
   var nav = document.getElementById('nav');
   window.addEventListener('scroll', function () {
